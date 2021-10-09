@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  font-size: 15px;
+}
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+.container{
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin: 1rem; */
+  margin: 0 auto;
+}
+.header{
+  margin: 50px auto;
+  max-width: 520px;
+  text-align: center;
+  justify-content: center;
+}
+
+h1{
+  color: hsl(234, 12%, 34%);
+  font-weight: 200;
+  margin: 0;
+
+}
+h1 span{
+display: block;
+font-weight: 600;
+}
+h2{
+  color: hsl(234, 12%, 34%);
+}
+.supervisor {
+  max-width: 21.8rem;
+  padding: 1rem;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  background-color: white;
+  margin: 1rem;
+  box-shadow: 0 6px 10px rgb(0 0 0 / 0.2);
+  border-radius: 0.3rem;
+  max-height: 250px;
+}
+
+.team {
+  max-width: 21.8rem;
+  padding: 1rem;
+  border-top: 3px solid hsl(0, 78%, 62%);
+  background-color: white;
+  margin: 1rem;
+  box-shadow: 0 6px 10px rgb(0 0 0 / 0.2);
+  border-radius: 0.3rem;
+  max-height: 250px;
+}
+
+.karma {
+  max-width: 21.8rem;
+  padding: 1rem ;
+  border-top: 3px solid hsl(34, 97%, 64%);
+  background-color: white;
+  margin: 1rem;
+  box-shadow: 0 6px 10px rgb(0 0 0 / 0.2);
+  border-radius: 0.3rem;
+  max-height: 250px;
+  order:1;
+}
+
+.calculator {
+  max-width: 21.8rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-top: 3px solid hsl(212, 86%, 64%);
+  background-color: white;
+  margin: 1rem;
+  box-shadow: 0 6px 10px rgb(0 0 0 / 0.2);
+  border-radius: 0.3rem;
+  max-height: 250px;
+}
+img{
+display: block;
+margin-left: auto;
+}
+.push{
+  transform: translateY(50%);
+}
+.para{
+  margin-bottom:2rem;
+}
+
+@media (max-width: 775px){
+  .push{
+    transform: translateY(0);
+  }
+  .karma{
+    order: 0;
+  }
+}
